@@ -1,0 +1,14 @@
+# custom
+data/
+dataii/
+.idea/
+*.state
+checkpoint
+.vscode/
+dask-worker-space/
+*.out
+
+__pycache__/
+*.py[cod]
+*$py.class
+settings.json
