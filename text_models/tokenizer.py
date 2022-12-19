@@ -48,6 +48,8 @@ class NoteExtractor(object):
     """
     deal clinical note
     """
+    tokenizer = RegexpTokenizer(r'\w+')
+
     @classmethod
     def to_doc(cls, doc: str) -> List[str]:
         doc = doc.lower()
